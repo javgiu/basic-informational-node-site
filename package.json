@@ -1,24 +1,24 @@
 {
-  "name": "basic-informational-node-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/javgiu/basic-informational-node-site.git"
-  },
-  "keywords": [],
-  "author": "javgiu <javygiuli@gmail.com> (https://github.com/javgiu)",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/javgiu/basic-informational-node-site/issues"
-  },
-  "homepage": "https://github.com/javgiu/basic-informational-node-site#readme",
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+    "name": "basic-informational-node-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/javgiu/basic-informational-node-site.git"
+    },
+    "keywords": [],
+    "author": "javgiu <javygiuli@gmail.com> (https://github.com/javgiu)",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/javgiu/basic-informational-node-site/issues"
+    },
+    "homepage": "https://github.com/javgiu/basic-informational-node-site#readme",
+    "dependencies": {
+        "express": "^5.2.1"
+    }
 }
