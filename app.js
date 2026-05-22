@@ -54,7 +54,7 @@ app.get("/contact", (req, res) => {
     res.sendFile("contact-me.html", { root: __dirname });
 });
 app.use((req, res) => {
-    res.sendFile("404.html", { root: __dirname });
+    res.status(404).sendFile("404.html", { root: __dirname });
 });
 app.listen(PORT, hostname, (error) => {
     if (error) {
